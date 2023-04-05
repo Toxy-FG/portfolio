@@ -155,6 +155,11 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     font-weight: 600;
     margin: auto;
 }
+#stack-tec{
+    background: rgb(194,0,0);
+    background: linear-gradient(90deg, rgba(194,0,0,1) 25%, rgba(226,0,0,1) 75%);
+    padding: 16px;
+}
 
 
 

@@ -2,11 +2,11 @@
 body{
     font-family: 'montserrat', sans-serif;
 }
-#contacto, #inicio{
+#contacto{
     background-image: url(../images/fondo-contacto.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
-
 nav li{
     padding: 5px 20px;
 
@@ -67,7 +67,7 @@ footer .fa-linkedin-in{
     font-size: 30px;
     color: white;
 }
-#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in{
+#contacto footer .fa-linkedin-in{
     color: #ff4a49;
     background-color: white;
 }
@@ -108,14 +108,15 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     border-radius: 15px !important;
 }
 
-#proyectos{
+#proyectos, #inicio{
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
-#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a, #inicio footer, #inicio footer a{
     color: #E20000;
 }
-#proyectos footer .fa-github, #sobre-mi footer .fa-github{
+#proyectos footer .fa-github, #sobre-mi footer .fa-github, #inicio footer .fa-github{
     font-size: 30px;
     color: #E20000;
 }
@@ -126,8 +127,8 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     font-size: 16px;
     /*text-transform: uppercase; para ponerlo en mayúsculas*/
     color: white;
-    background: rgb(194,0,0);
-    background: linear-gradient(90deg, rgba(194,0,0,1) 25%, rgba(226,0,0,1) 75%);
+    background: rgb(255,74,74);
+    background: linear-gradient(90deg, rgba(255,74,74,1) 40%, rgba(246,20,20,1) 60%);
     padding: 16px;
 }
 .pycto img{
@@ -149,16 +150,22 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
 }
 #inicio p{
     font-size: 17px;
-    border: solid 1px white;
-    color: white;
+    border: solid 1px #E20000;
+    color: #E20000;
     border-radius: 50px;
     font-weight: 600;
     margin: auto;
 }
 #stack-tec{
-    background: rgb(194,0,0);
-    background: linear-gradient(90deg, rgba(194,0,0,1) 25%, rgba(226,0,0,1) 75%);
+    background: rgb(255,74,74);
+    background: linear-gradient(90deg, rgba(255,74,74,1) 40%, rgba(246,20,20,1) 60%);
     padding: 16px;
+}
+.tarj i{
+    font-size: 50px;
+}
+.tarj{
+    background-color: #eee;
 }
 
 
@@ -167,14 +174,14 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     .whatsapp{
         right: 20px;
     }
-    #proyectos{
+    #proyectos, #inicio{
         background-size: contain;
         background-repeat: no-repeat;
     }
-   /*#contacto, #inicio{
-        min-height: 100%;
-        El background se rompe culpa de la función H-100 cuando se encuentra en mobile
-    }*/
+    #contacto{
+        background-attachment: fixed;
+        background-position: bottom;
+    }
     
         /*APLICAR Y CONTINUAR EN CASO DE NO SOLUCIONAR BACKGROUND
         #inicio{

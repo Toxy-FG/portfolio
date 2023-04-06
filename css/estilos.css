@@ -166,6 +166,19 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
 }
 .tarj{
     background-color: #eee;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    
+}
+.tarj h3{
+    font-size: 15px;
+}
+.img-circle{
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    
 }
 
 

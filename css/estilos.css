@@ -12,11 +12,11 @@ nav li{
 
 }
 nav .active{
-    border: solid #e20000 1px;
+    border: solid #E20000 1px;
     border-radius: 20px;
 }
 h1{
-    color: #e20000;
+    color: #E20000;
 }
 p{
     color: #6a6a6a;
@@ -32,7 +32,7 @@ p{
     color: white;
 }
 .btn-rojo{
-    background-color: #e20000;
+    background-color: #E20000;
     color: white;
     border: none;
     border-radius: 15px;
@@ -182,15 +182,22 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
 .tarj-otros{
     background-color: #fff;
     border-radius: 15px;
+    padding: 0px;
 }
 .tarj-otros h3{
     font-size: 20px;
     font-weight: 400px;
     text-transform: uppercase;
 }
-.tarj-otros li{
+.tarj-otros ul{
     list-style-type: none;
-    margin: 0px;
+    padding: 0px;
+}
+.tarj-otros a{
+    color: #370a6d;
+}
+.tarj-otros a:hover{
+    color: #E20000;
 }
 .tarj-ico{
     font-size: 80px;
@@ -215,6 +222,7 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
 
 
 
+
 @media (max-width: 480px){
     .whatsapp{
         right: 20px;
@@ -227,15 +235,4 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
         background-attachment: fixed;
         background-position: bottom;
     }
-    
-        /*APLICAR Y CONTINUAR EN CASO DE NO SOLUCIONAR BACKGROUND
-        #inicio{
-        background-image: url(../images/fondo-proyectos.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        }
-        #inicio p{
-        color: #E20000;
-        border: solid 1px #E20000;
-        }*/
 }

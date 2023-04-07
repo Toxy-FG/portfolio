@@ -127,15 +127,15 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     font-size: 16px;
     /*text-transform: uppercase; para ponerlo en mayúsculas*/
     color: white;
-    background: rgb(255,74,74);
-    background: linear-gradient(90deg, rgba(255,74,74,1) 40%, rgba(246,20,20,1) 60%);
+    background: rgb(246,20,20);
+    background: linear-gradient(90deg, rgba(246,20,20,1) 40%, rgba(255,74,74,1) 70%);
     padding: 16px;
 }
 .pycto img{
     height: 200px;
 }
 .pycto p{
-    font-size: 1px;
+    font-size: 14px;
     height: 120px;
     margin: 0px 10px;
 }
@@ -157,28 +157,60 @@ form input[type=text], form input[type=email], form input[type=tel], textarea{
     margin: auto;
 }
 #stack-tec{
-    background: rgb(255,74,74);
-    background: linear-gradient(90deg, rgba(255,74,74,1) 40%, rgba(246,20,20,1) 60%);
+    background: rgb(246,20,20);
+    background: linear-gradient(90deg, rgba(246,20,20,1) 40%, rgba(255,74,74,1) 70%);
     padding: 16px;
 }
+#stack-tec h2{
+    color: #fff;
+    font-size: 25px;
+}
 .tarj i{
-    font-size: 50px;
+    font-size: 70px;
+    color: #370a6d;
 }
 .tarj{
     background-color: #eee;
-    margin: 10px;
     border-radius: 10px;
     display: block;
     
 }
 .tarj h3{
-    font-size: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tarj-otros{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.tarj-otros h3{
+    font-size: 20px;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+.tarj-otros li{
+    list-style-type: none;
+    margin: 0px;
+}
+.tarj-ico{
+    font-size: 80px;
+    color: #fff;
+    background-color: #370a6d;
+    border-radius: 15px;
 }
 .img-circle{
     display: block;
     border-radius: 50%;
     padding: 10px;
     
+}
+#exp i, #exp h2{
+    display: inline;
+    font-size: 25px;
+    color: #370a6d;
+}
+#otros{
+    background-color: #eee;
 }
 
 
